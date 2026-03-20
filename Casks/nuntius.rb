@@ -3,7 +3,7 @@ cask "nuntius" do
   name "nuntius"
   desc "AI-powered commit message generator TUI"
   homepage "https://github.com/crazzyghost/nuntius"
-  version "0.0.1-alpha"
+  version "0.0.2-alpha"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "nuntius" do
   on_macos do
     on_intel do
       url "https://github.com/crazzyghost/nuntius/releases/download/v#{version}/nuntius_#{version}_darwin_amd64.tar.gz"
-      sha256 "db7ebb3e2f962cc52b42f98788fd3608c71e363002c66f4384a159211219decd"
+      sha256 "615dfcbbd6bcc149e299489c40f970374ef5162f9e3973095e78b9c9498444a1"
     end
     on_arm do
       url "https://github.com/crazzyghost/nuntius/releases/download/v#{version}/nuntius_#{version}_darwin_arm64.tar.gz"
-      sha256 "57b5e4ac06fe84e67a792232412994b177ffa47248c995ed7faa970453a5dfe3"
+      sha256 "d3f7042fb17e04b9e5c966bd30d855289eaff115f7885b43fc4bc4d0c0af0f09"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/crazzyghost/nuntius/releases/download/v#{version}/nuntius_#{version}_linux_amd64.tar.gz"
-      sha256 "224e6960c59630a7f9625512bd77919bead476ae630cefb3fd8a63b8a0e9100f"
+      sha256 "8742eb1881c0422c8b097c57430d430f3dad392a6543246d941d9ec83e420308"
     end
     on_arm do
       url "https://github.com/crazzyghost/nuntius/releases/download/v#{version}/nuntius_#{version}_linux_arm64.tar.gz"
-      sha256 "b92b8291ca9aab96a5be4684e5b681a35ce1458fb920a2831c70045350ecb482"
+      sha256 "a959f07b8f2652f4a7b05996adc52f6ce11ada2db5179afd5a37d875f0471101"
     end
   end
 
